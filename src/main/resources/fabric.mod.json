@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pencilclient",
+  "version": "${version}",
+  "name": "Pencil Client",
+  "description": "Minecraft 1.21.4 Fabric client with a Right Shift menu and tabs: Visual, Combat, Misc, Config, Player, Movement.",
+  "authors": [
+    "Pencil"
+  ],
+  "contact": {
+    "homepage": "https://github.com/tandukgzgzvt849-ship-it/Pencil-Client"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.pencilclient.PencilClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "fabric-api": "*"
+  }
+}
